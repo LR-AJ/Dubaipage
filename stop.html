@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>One Stop Dubai</title>
+    <link rel="stylesheet" href="stop.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="row">
+            <div class="topnav" id="myTopnav">
+                <img src="logo.jpg" alt="logo picture" width="200" height="80">
+                <div class="navchip">
+                    <a href="tel:+918750008585"><img src="phone.png" id="phone" alt="phone picture">
+                        <span>+918750008585</span></a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container2">
+        <div class="rib-txt">
+            <p>Apply Online</p>
+        </div>
+        <div class="form-container">
+            <div class="formi">
+                <div><input type="text" name="name" id="name" placeholder="Your Name"></div>
+                <div><input type="email" name="email" id="email" placeholder="Email"></div>
+                <div> <input type="number" name="number" id="number" placeholder="Number"></div>
+                <div><button><strong> > ></strong> Proceed</button></div>
+            </div>
+        </div>
+        <style>
+           
+        </style>
+    </div>
+    <div class="container-fluid">
+        <div class="row" id="header">
+            <div class="column1">
+                <div class="container" id="head">
+                    <h3 id="demo">
+
+                    </h3>
+                    <style>
+                      #demo{
+                        height: 150px;
+                        
+                      }
+                    </style>
+                   
+                    <h6>Business setup in the UAE in the Most Affordable Packages with professional guidance at every
+                        turn.</h6>
+                </div>
+               
+                <ul class="ullist">
+                    <li>100% foreign ownership..</li>
+                    <li>VAT Registration.</li>
+                    <li>Free Consultation Services.</li>
+                    <li>Clear, hassle-free service.
+
+                    </li>
+                    <li>lowest cost for company formation.
+                    </li>
+                    <li>Lifetime visa</li>
+                </ul>
+                <style>
+                    .ullist {
+                        color: #fee765;
+                    }
+
+                    .ullist>li {
+                        list-style-type: disc;
+                        font-size: 1.3rem;
+
+                    }
+                </style>
+            </div>
+            <div class="column2">
+
+            </div>
+        </div>
+    </div>
+    
+
+    <div class="container3">
+        <div>
+            <h1>How to Setup Bussiness in Dubai</h1>
+        </div>
+        <div class="col">
+            <div class="card"><img src="Ideal Corporate Business Selection.png" alt="Ideal Bussiness"><p>Ideal Corporate Business Selection</p>
+            </div>
+            <div class="card"><img src="Submission of Documents.png" alt="Submission"><p>Submission of Documents.</p></div>
+            <div class="card"><img src="Secure Office Location.png" alt="Secure Office"><p>Secure Office Location.</p></div>
+            <div class="card"><img src="Obtaining business license and a visa.png" alt="Obtaining business "><p>Obtaining business license and a visa.</p></div>
+            <div class="card"><img src="Obtaining bank account.png" alt="Obtaining bank"><p>Obtaining bank account.</p></div>
+        </div>
+        <style>
+            .col{
+                width: 95%;
+                margin: auto;
+                display: flex;
+                flex-direction: row;
+                justify-content: center;
+                column-gap: 5%;
+                
+            }
+            .card{
+                width:15%;
+                height: 200px;
+                color:#fee456;
+               background-color:black;
+                text-align: center;
+                border-radius: 20%;
+                border-radius: 50%;
+                display: flex;
+                justify-content: center;
+                flex-direction: column;
+                padding: 20px;
+                margin-bottom: 40px;
+                box-shadow: -6px 8px 1px 2px #8f7100;
+            }
+            .card>img{
+                display: block;
+                margin: auto;
+                margin-top: 10px;
+                width:80px;
+                height: 80px;
+            }
+        </style>
+    </div>
+    <script>
+          window.scrollTo(0,18);
+            var txt="Company Formation In Dubai";
+            var i = 0;
+            var speed=80;
+            function typeWriter(){
+                
+                if(i < txt.length)
+                {
+                            
+                            document.getElementById("demo").innerHTML += txt.charAt(i);
+                            i++;
+                            setTimeout(typeWriter,speed);
+                }
+            }
+        typeWriter();
+                
+    </script>
+
+</body>
+
+</html>
